@@ -161,51 +161,7 @@
                     </div>
                 </div>
             </section>
-            <!DOCTYPE html>
-<html>
-<head>
-    <title>Interactive Google Map</title>
-    <style>
-        #map {
-            height: 100%; /* The height is 100% of the viewport */
-            width: 100%; /* The width is 100% of the viewport */
-        }
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
-</head>
-<body>
-    <div id="map"></div> <!-- This is where the map will appear -->
-
-    <script>
-        function initMap() {
-            // The location of the center point (e.g., New York City)
-            const location = { lat: 40.7128, lng: -74.0060 };
-
-            // Create a map object and specify the DOM element for display
-            const map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 12, // Zoom level
-                center: location, // Centering the map
-            });
-
-            // Add a marker to the map
-            const marker = new google.maps.Marker({
-                position: location,
-                map: map,
-                title: "Hello, New York City!",
-            });
-        }
-    </script>
-    
-    <!-- Load the Google Maps JavaScript API -->
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ0NZXikF0bevLYRxU4GpVnylTt0oiVg8&callback=initMap">
-    </script>
-</body>
-</html>
+            
             <!--==================== EXPERIENCE ====================-->
             <section class="experience section">
                 <h2 class="section__title">With Our Experience <br> We Will Serve You</h2>
